@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Agro AI-Asist
 
-# Run and deploy your AI Studio app
+Sistema integral de inteligencia agroespacial para monitoreo fisiológico y operacional de caña de azúcar en la Huasteca Potosina.
 
-This contains everything you need to run your app locally.
+## Características
 
-View your app in AI Studio: https://ai.studio/apps/84852ec7-d713-41fa-9af9-05acdf5a4a0c
+- Mapa satelital interactivo con capas geoespaciales
+- Diagnóstico de vigor vegetal y estrés hídrico
+- Recomendaciones agronómicas asistidas por IA
+- Panel operativo para ingenios y productores
+- Integración con Gemini para interpretación de datos agrarios
 
-## Run Locally
+## Stack
 
-**Prerequisites:**  Node.js
+- React + TypeScript + Vite
+- Tailwind CSS
+- Leaflet
+- Google Gemini AI
+- Express
 
+## Requisitos
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Node.js 20+
+- npm
+- Una clave de API de Gemini
+
+## Instalación
+
+```bash
+npm install
+cp .env.example .env.local
+# agrega tu GEMINI_API_KEY
+npm run dev
+```
+
+## Variables de entorno
+
+```env
+GEMINI_API_KEY=tu_clave
+VITE_GEMINI_API_KEY=tu_clave
+```
+
+## Scripts
+
+```bash
+npm run dev
+npm run build
+npm run lint
+```
+
+## Estructura del proyecto
+
+```text
+src/
+  components/
+  pages/
+  services/
+  types/
+  hooks/
+  utils/
+  styles/
+public/
+server/
+```
