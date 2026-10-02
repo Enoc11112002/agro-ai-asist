@@ -1,0 +1,6 @@
+{
+  "name": "Agro AI-Asist - Monitoreo Satelital de Caña de Azúcar",
+  "description": "Sistema Integral de Inteligencia Agroespacial y Monitoreo Fisiológico de Caña de Azúcar en la Huasteca Potosina, SLP (Ingenios Plan de Ayala, Alianza Popular, San Miguel El Naranjo).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
